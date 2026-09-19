@@ -42,10 +42,17 @@ Edit any field in the receipt and run it again. It reports DRIFT.
 - `demo/` is the one-command demo and its own README.
 - `FLYWHEEL-TOOLS-EXPLAINED.md` walks the verification model and every lane, with
   each claim pointed at the file in the code that backs it.
-- `diagrams/` holds three diagrams: the seam where attestation and re-derivation
-  meet, the receipt flow with the four-way verdict, and five integration points.
+- `diagrams/` holds the Flywheel schematics from the main repository: the receipt
+  lifecycle, the one-surface architecture, the verified loop, and the capability
+  check.
 - `INTEGRATION.md` is the five-point brief for binding a hardware attestation quote
   into a Flywheel proof envelope.
+
+## The receipt path, end to end
+
+<p align="center"><img src="diagrams/run-lifecycle.svg" alt="Eight stages from task to offline recheck, with a refusal path back to the tool request, ending in match, changed or unverifiable." width="100%"></p>
+
+<p align="center"><img src="diagrams/architecture.svg" alt="The browser shell, the command line, curl and MCP clients all reach one gateway on localhost, which routes to a local model or an external check and writes a receipt either way, escalating only what does not pass." width="100%"></p>
 
 ## The two layers
 
