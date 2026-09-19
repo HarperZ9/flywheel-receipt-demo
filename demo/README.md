@@ -114,6 +114,6 @@ about whether it passed its own check.
 ## Files in this folder
 
 - `run_demo.py` is the one command. Runs every step above and prints it.
-- `task/task.json` — the task definition (prompt, oracle, command).
-- `task/skeleton/test_merge_intervals.py` — the oracle: the tests that decide.
-- `out/` — created on each run; holds the receipt and the forged copy.
+- `task/task.json` is the task definition (prompt, oracle, command).
+- `task/skeleton/test_merge_intervals.py` is the oracle: the tests that decide.
+- `out/` is created on each run; holds the receipt and the forged copy.
