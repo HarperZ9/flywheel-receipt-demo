@@ -1,4 +1,17 @@
-# Flywheel receipt demo
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarperZ9/flywheel-receipt-demo/main/docs/art/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/HarperZ9/flywheel-receipt-demo/main/docs/art/hero-light.svg" alt="flywheel-receipt-demo: Run a re-derivable receipt in one command and catch a forged one. A chain of small linked squares, each holding a few ruled lines, winds inward to a bright core. One mark is labelled MATCH." width="100%">
+</picture>
+
+# flywheel-receipt-demo
+
+Run a re-derivable receipt in one command and catch a forged one.
+
+```
+pip install flywheel-verify pytest
+```
+
+[![license](https://img.shields.io/badge/license-FSL--1.1--MIT-e6e1d6?style=flat-square&labelColor=1a1712)](https://github.com/HarperZ9/flywheel-receipt-demo/blob/main/LICENSE)
 
 Run Flywheel's re-derivable receipt path in one command, and see how it composes
 with hardware-attested inference.
