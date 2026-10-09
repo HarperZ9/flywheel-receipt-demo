@@ -56,6 +56,41 @@ The [animated explainer](https://harperz9.github.io/repo-explainers/flywheel-rec
 walks through one coding task through Flywheel's receipt path: the receipt written, re-derived in a fresh process to MATCH, then forged and caught as DRIFT. Every value on it is output from this repository. Its
 source is [docs/explainer/index.html](docs/explainer/index.html).
 
+## Watch
+
+[![Re-derive it. Don't take it on trust.: a narrated film, 2 min 5 s](https://harperz9.github.io/media/explainers/rederive/poster.jpg)](https://harperz9.github.io/explainers.html#rederive-h)
+
+**[Re-derive it. Don't take it on trust.](https://harperz9.github.io/explainers.html#rederive-h)** (2 min 5 s, narrated, captioned). The demo re-derives a receipt in a separate process and catches a forged one, the practice this film describes. The film page carries the transcript, the sources and recall questions.
+
+Video walkthrough: coming with the next release.
+
+## Walkthrough
+
+Install it, run it once, then use the main feature. Each command below is real, and so is its output.
+
+1. **Install.** Install the engine from PyPI and clone the demo. Python 3.11 or newer.
+
+   ```text
+   $ pip install flywheel-verify pytest
+   $ git clone https://github.com/HarperZ9/flywheel-receipt-demo && cd flywheel-receipt-demo/demo
+   ```
+
+2. **First run: the demo.** Run a task, write its receipt, re-derive it, then forge it and re-derive again.
+
+   ```text
+   $ python run_demo.py
+     RESULT: receipt path verified. Honest MATCH, forged DRIFT.
+   ```
+
+3. **Re-derive the receipt yourself.** Verify the receipt in a fresh process from the task files beside it.
+
+   ```text
+   $ python -m harness.verify_receipt --receipt out/receipt.json --task-dir task
+   claimed     verdict PASS, output_hash a2e1d126b3cd1870
+   recomputed  verdict PASS, output_hash a2e1d126b3cd1870
+   checks      output_hash_matches true, verdict_matches true
+   ```
+
 ## What is here
 
 - `demo/` is the one-command demo and its own README.
