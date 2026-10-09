@@ -50,6 +50,12 @@ python -m harness.verify_receipt --receipt out/receipt.json --task-dir task
 
 Edit any field in the receipt and run it again. It reports DRIFT.
 
+## See it work, step by step
+
+The [animated explainer](https://harperz9.github.io/repo-explainers/flywheel-receipt-demo.html)
+walks through one coding task through Flywheel's receipt path: the receipt written, re-derived in a fresh process to MATCH, then forged and caught as DRIFT. Every value on it is output from this repository. Its
+source is [docs/explainer/index.html](docs/explainer/index.html).
+
 ## What is here
 
 - `demo/` is the one-command demo and its own README.
