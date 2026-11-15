@@ -1,3 +1,5 @@
+> **Archived.** This demo moved to [HarperZ9/flywheel](https://github.com/HarperZ9/flywheel) on 2026-11-15 and now lives at [`demos/flywheel-receipt-demo`](https://github.com/HarperZ9/flywheel/tree/main/demos/flywheel-receipt-demo). This repository is read-only and stays here as the record of its history.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarperZ9/flywheel-receipt-demo/main/docs/art/hero-dark.svg">
   <img src="https://raw.githubusercontent.com/HarperZ9/flywheel-receipt-demo/main/docs/art/hero-light.svg" alt="flywheel-receipt-demo: Run a re-derivable receipt in one command and catch a forged one. A chain of small linked squares, each holding a few ruled lines, winds inward to a bright core. One mark is labelled MATCH." width="100%">
